@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Matching game</h1>
+    
+    <p>
+      Welcome to the game!
+    </p>
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id="endBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+    <div id="timer">
+      Timer: 0 seconds
+    </div>
+    <div id="gameButtonArea">
+      <button id="button1" onmousedown="startTone(1)" onmouseup="stopTone()" onclick="guess(1)"><img class="image" src="https://cdn.glitch.com/16e480a0-9fd0-40f8-b771-adb2030389d6%2F1.png?v=1616191966022" alt="1"/></button>
+      <button id="button2" onmousedown="startTone(2)" onmouseup="stopTone()" onclick="guess(2)"><img class="image" src="https://cdn.glitch.com/16e480a0-9fd0-40f8-b771-adb2030389d6%2F2.png?v=1616191975374" alt="2"></button>
+      <button id="button3" onmousedown="startTone(3)" onmouseup="stopTone()" onclick="guess(3)"><img class="image" src="https://cdn.glitch.com/16e480a0-9fd0-40f8-b771-adb2030389d6%2F3.png?v=1616191977160" alt="3"></button>
+      <button id="button4" onmousedown="startTone(4)" onmouseup="stopTone()" onclick="guess(4)"><img class="image" src="https://lumiere-a.akamaihd.net/v1/images/image_2c38e724.png" alt="4"></button>
+      <button id="button5" onmousedown="startTone(5)" onmouseup="stopTone()" onclick="guess(5)"><img class="image" src="https://cdn.glitch.com/16e480a0-9fd0-40f8-b771-adb2030389d6%2F5.png?v=1616191984389" alt="5"></button>
+      
+      
+    </div>
+    
+    
+    
+    
+    
+    
+    
+  
+    
+  </body>
+</html>
